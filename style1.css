@@ -1,0 +1,24 @@
+body::before {
+    content: "";
+    position:absolute;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 3px white;
+    background-color: black;
+  }
+  
+  body::after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    z-index: -1;
+    border: 2px solid black;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  
+  
+     
